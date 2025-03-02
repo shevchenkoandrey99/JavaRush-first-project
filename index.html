@@ -21,10 +21,165 @@
           <select id="language-select" name="language">
               <option value="ru">Русский</option>
               <option value="en">English</option>
-              <option value="es">Español</option>
               <option value="fr">Français</option>
-              <option value="de">Deutsch</option>
           </select>
+          <div class="search-">
+            <h2>Поиск рейсов</h2>
+            <form action="#" method="post">
+                <label for="from">Откуда:</label>
+                <input type="text" id="from" name="from" placeholder="Город вылета" required>
+                <label for="to">Куда:</label>
+                <input type="text" id="to" name="to" placeholder="Город прилёта" required>
+                <label for="departure-date">Туда</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+                <label for="return-date">Обратно</label>
+                <input type="date" id="return-date" name="return-date">
+                <label for="passenger_class">Пассажиры,Класс</label>
+                <input type="text" id="passengers_class" name="passengers_class">
+                <button type="submit">Найти</button>
+            </form>
+        </div>
     </header>
+    <main>
+        <div class="inform">
+            <ul>
+                <h3>Управляйте своими билетами в Telegram</h3>
+                <li>Доступ к билетам и кабинету</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div class="trip_inform">
+            <p>Билеты на автобус по Китаю и Европе</p>
+            <P>Удобное сравнение цен Актуальное расписание</p>
+        </div>
+        <div class="travel">
+            <h2>Популярные направления</h2>
+            <div class="all_ways">
+            <div class="way">
+                <span class="city">Варшава &#8594 Милан</span>
+                <span class="price">от 771 </span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Лондон</span>
+                <span class="price">от 1 001 </span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Аликанте</span>
+                <span class="price">от 1 421</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Мадрид</span>
+                <span class="price">от 1 646</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Барселона</span>
+                <span class="price">от 1 663 ₽</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Амстердам</span>
+                <span class="price">от 3 256</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Лиссабон</span>
+                <span class="price">от 3 364</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Париж</span>
+                <span class="price">от 4 077</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Нью-Йорк</span>
+                <span class="price">от 21 277</span>
+            </div>
+            <div class="way">
+                <span class="city">Варшава &#8594 Денпасар-Бали</span>
+                <span class="price">от 25 573</span>
+            </div>
+            </div>
+        </div>
+        <section class="top10">
+            <h3> Топ-10 авиакомпаний</h3>
+            <div class="full_airlines">
+            <div class="airlines">
+                <span class="company"> Эмирейтс</span>
+                <span class="symbol">4.7</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Катар Эйрвейз</span>
+                <span class="symbol">4.7</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Тюркиш Эрлайнс</span>
+                <span class="symbol">4.7</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Сингапур Эрлайнс</span>
+                <span class="symbol">4.7</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Кореан Эйр</span>
+                <span class="symbol">4.7</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Этихад Эйрвейз/span>
+                <span class="symbol">4.6</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Катай Пасифик</span>
+                <span class="symbol">4.5</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Эйр Астана</span>
+                <span class="symbol">4.5</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Верджин Атлантик Эйрвейз/span>
+                <span class="symbol">4.5</span>
+            </div>
+            <div class="airlines">
+                <span class="company"> Эйр Нью Зиланд</span>
+                <span class="symbol">4.5</span>
+            </div>
+            </div>
+        </section>
+        <div class="hot_sales">
+            <h3>Горящие распродажи авиарейсов</h3>
+            <div class="support_discription">
+                <div class="discount">
+                    <h3>>Как найти авиабилеты со скидкой онлайн</h3>
+                    <p>На нашем сайте выможете купить билеты на самолет или оформить раннее бронирование. Акции, скидки 
+                       и специальные предложения, которые постоянно предлогают ведущие авикомпании лоукостеры, позволяют
+                       приобрести недорогие авиабилеты не выходя из дома. Если хотите съэкономить и купить авиабилеты дешевле, 
+                       обратите внимание на рейсы с пересадками. А вот время как драоценную валюту для путешественника 
+                       помогают съэкономить прямые передеты, пусть они и стоят дороже билетов с пересадками.</p>
+                </div>
+                <div class="client_support">
+                    <h3>Клиентская поддержка</h3>
+                    <p>Какой билет заказать для ребенка?Где внести данные по визе?Можно ли поменять даты вылета? Как оформить
+                        дополнительный багаж? Операторы нашей службы поддержки знают ответы на все вопросы о перелетах. Мы
+                        сопровождаем ваши бронирования в режиме 24/7/365, на украинском, русском и английском языке.Всегда 
+                        поможем подобрать, оплатить или внести изменения в билет быстро и удобно! С помощью удобного поиска
+                        сделать заказ авабилетов по интернету можно дешево  и безопасно.</p>
+                </div>
+                <div class="bonus">
+                    <h3>Бонусная программа для постоянных клиентов</h3>
+                    <p>ЗА покупку авиабилетов на нашем сайте вы получаете бонусы -1% от суммы транзакции. Накопив достаточно
+                       Колличество баллов, можно отплатить ими билеты на самолет при следующих покупках. Максимальна скидка, 
+                       которую можно получить благодаря бонусной программе 25%.
+                    </p>
+                </div>
+                <div class='chip_ticket'>
+                    <h3>Самые дешевые авиабилеты</h3>
+                    <p>Как и где купить авиабилеты дешево?Сотрудничество с 750 авиакомпаниями позволяют нам формировать 
+                       гибкие тарифы и предлагает нашим клиентам лучшие условия. Наш сайт агрегатор авиарейсов оперативно
+                       обрабатывет ваши запросы  и выдает всее доступные варианты. Вы можете возпользоваться фильтрами и 
+                       отсортировать предложения по перевозчикам, времени вылета и другим параметрам</p>
+                </div>
+                <div class='compare_price'>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
