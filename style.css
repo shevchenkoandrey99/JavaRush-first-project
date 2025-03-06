@@ -13,13 +13,22 @@ header{
     align-items: center; 
     gap:20px;
 }
-input {
+form{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0
+}
+input[id="first_manu"] {
     border-radius: 10px; 
     padding: 10px 20px; 
     background-color: lightblue; 
     color: white; 
     border: none; 
     cursor: pointer; 
+}
+input[id="search"] {
+
 }
 input:hover {
     background-color: white; /* Меняем цвет фона при наведении */
