@@ -2,4 +2,14 @@
     display: flex; 
     justify-content: flex-end;
     align-items: center; 
+    gap:20px;
+}
+header{
+    background-color: blue;
+}
+.nav_manu{
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+    gap:20px;
 }
