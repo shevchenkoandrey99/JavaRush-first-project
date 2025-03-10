@@ -28,15 +28,40 @@
             <input type="button" id="first_manu" value="Отели">
             <input type="button" id="first_manu" value="Страхование">
           </nav>
-          <div class="search-first">
-            <form action="#" method="post">   
-                <input type="text" id="search" name="from" placeholder="Город вылета" required> 
-                <input type="text" id="search" name="to" placeholder="Город прилёта" required>
-                <input type="date" id="search" name="departure-date" required>
-                <input type="date" id="search" name="return-date" required>
-                <input type="text" id="search" name="passengers_class">
-                <button type="submit">Найти</button>
+          <div class="search-form">
+            <form action="/search" method="GET">
+              <div class="form-container">
+                <!-- Пункт вылета -->
+                <div class="form-group">
+                  <input type="text" id="departure" name="departure" placeholder="Город или аэропорт" required>
+                </div>
+                <!-- Пункт назначения -->
+                <div class="form-group">
+                  <input type="text" id="arrival" name="arrival" placeholder="Город или аэропорт" required>
+                </div>
+                <!-- Дата вылета -->
+                <div class="form-group">
+                  <input type="date" id="departure-date" name="departure-date" required>
+                </div>
+                <!-- Дата возвращения -->
+                <div class="form-group">
+                  <input type="date" id="return-date" name="return-date">
+                </div>
+                <!-- Класс перелета -->
+                <div class="form-group">
+                  <select id="flight-class" name="flight-class">
+                    <option value="economy">Эконом</option>
+                    <option value="business">Бизнес</option>
+                    <option value="first">Первый</option>
+                  </select>
+                </div>
+                <!-- Кнопка поиска -->
+                <div class="form-group">
+                  <button type="submit">Найти билеты</button>
+                </div>
+              </div>
             </form>
+          </div>
         </div>
     </header>
     <main>
