@@ -31,23 +31,23 @@
           <div class="search-form">
             <form action="/search" method="GET">
               <div class="form-container">
-                <!-- Пункт вылета -->
+                
                 <div class="form-group">
-                  <input type="text" id="departure" name="departure" placeholder="Город или аэропорт" required>
+                  <input type="text" id="departure" name="departure" placeholder="Откуда" required>
                 </div>
-                <!-- Пункт назначения -->
+                
                 <div class="form-group">
-                  <input type="text" id="arrival" name="arrival" placeholder="Город или аэропорт" required>
+                  <input type="text" id="arrival" name="arrival" placeholder="Куда" required>
                 </div>
-                <!-- Дата вылета -->
+               
                 <div class="form-group">
-                  <input type="date" id="departure-date" name="departure-date" required>
+                  <input type="date" id="departure-date" name="departure-date" placeholder="Туда" required>
                 </div>
-                <!-- Дата возвращения -->
+                
                 <div class="form-group">
-                  <input type="date" id="return-date" name="return-date">
+                  <input type="date" id="return-date" name="return-date" placeholder="Обратно" >
                 </div>
-                <!-- Класс перелета -->
+                
                 <div class="form-group">
                   <select id="flight-class" name="flight-class">
                     <option value="economy">Эконом</option>
@@ -55,7 +55,7 @@
                     <option value="first">Первый</option>
                   </select>
                 </div>
-                <!-- Кнопка поиска -->
+                
                 <div class="form-group">
                   <button type="submit">Найти билеты</button>
                 </div>
