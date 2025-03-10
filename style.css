@@ -1,17 +1,34 @@
+body{
+    text-align:center;
+    margin-left:300px;
+    margin-right:300px;
+}
 .top_header {
     display: flex; 
     justify-content: flex-end;
     align-items: center; 
     gap:20px;
+    color:white;
+}
+#language-select{
+    background-color:blue ;
+    color:white;
+    border-color:blue;
 }
 header{
     background-color: blue;
 }
-.nav_manu{
+.main_name{
+    color:lightcoral;
+    text-align: left;
+    margin-left: 10px;
+}
+.nav_menu{
     display: flex; 
     justify-content: flex-start;
     align-items: center; 
     gap:20px;
+    margin-bottom:20px;
 }
 form{
     display:flex;
@@ -28,8 +45,17 @@ input[id="first_manu"] {
     cursor: pointer; 
 }
 input[id="search"] {
-
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9; 
+    border-color: #f9f9f9;
 }
 input:hover {
-    background-color: white; /* Меняем цвет фона при наведении */
+    background-color: white; 
   }
