@@ -11,12 +11,28 @@ body{
     color:white;
 }
 #language-select{
-    background-color:blue ;
+    background-color:#4B0082 ;
     color:white;
     border-color:blue;
 }
 header{
     background-color: blue;
+    width: 100vw; 
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 1rem 0;
+}
+.header-container {
+  max-width: 1200px; /* Максимальная ширина контента */
+  margin: 0 auto; /* Центрирование контента */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ 
 }
 .main_name{
     color:lightcoral;
@@ -81,4 +97,10 @@ header{
     .form-group {
       min-width: 100%; 
     }
+  }
+  .firstFlexmain{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    gap:100px;
   }
