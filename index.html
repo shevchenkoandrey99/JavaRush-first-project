@@ -29,40 +29,32 @@
             <input type="button" id="first_manu" value="Отели">
             <input type="button" id="first_manu" value="Страхование">
           </nav>
-          <div class="search-form">
-            <form action="/search" method="GET">
-              <div class="form-container">
+          <form class="search-form">
+            <div class="form-group">
                 
-                <div class="form-group">
-                  <input  id="departure" name="departure" placeholder="Откуда" required>
-                </div>
-                
-                <div class="form-group">
-                  <input  id="arrival" name="arrival" placeholder="Куда" required>
-                </div>
-               
-                <div class="form-group">
-                  <input  id="departure-date" name="departure-date" placeholder="Туда" >
-                </div>
-                
-                <div class="form-group">
-                  <input  id="return-date" name="return-date" placeholder="Обратно" >
-                </div>
-                
-                <div class="form-group">
-                  <select id="flight-class" name="flight-class">
-                    <option value="economy">Эконом</option>
-                    <option value="business">Бизнес</option>
-                    <option value="first">Первый</option>
-                  </select>
-                </div>
-                
-                <div class="form-group">
-                  <button type="submit">Найти билеты</button>
-                </div>
-              </div>
-            </form>
-          </div>
+                <input type="text" id="origin" placeholder="Город или аэропорт" value="Москва">
+                <button type="button" class="switch-button"><i class="fas fa-exchange-alt"></i></button>
+            </div>
+          <div class="form-group">
+           
+            <input type="text" id="destination" placeholder="Город или аэропорт" value="Стамбул">
+        </div>
+        
+        <div class="form-group">
+            <label for="departure"><i class="far fa-calendar-alt"></i> Туда</label>
+            <input type="date" id="departure">
+        </div>
+        
+        <div class="form-group">
+            
+            <input type="date" id="return">
+        </div>
+        
+        <button type="submit" class="search-button">
+            <i class="fas fa-search"></i> Найти
+        </button>
+    </form>
+</div>
         </div>
     </header-container>
     </header>
