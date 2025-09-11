@@ -1,25 +1,26 @@
 body{
     text-align:center;
-    margin-left:300px;
-    margin-right:300px;
+    margin-left:150px;
+    margin-right:150px;
 }
 .top_header {
-    display: flex; 
     justify-content: flex-end;
-    align-items: center; 
     gap:20px;
     color:white;
     padding: 20px;
-    margin: 50 auto;
+    margin: 0 auto;
+    display: flex;
 }
-#language-select{
-    background-color:blue ;
-    color:white;
-    border-color:blue;
-    
+.language{
+    color:#ddd	;
+    background-color: BlueViolet	;
+}   
+.language::before{
+  content: 🌐;
 }
+
 header{
-    background-color:#8A2BE2	;
+    background-color:BlueViolet	;
     width: 100vw; 
     position: relative;
     left: 50%;
@@ -29,24 +30,23 @@ header{
     padding: 1rem 0;
 }
 .hh{
-  display: flex;
-  justify-self: start;
+    display: flex;
+    justify-self: start;
 }
 
 .header-container {
-  max-width: 800px; /* Максимальная ширина контента */
-  margin: 0 auto; /* Центрирование контента */
-  display: flex;
- 
-  padding: 20px;
-
-  margin: 0 auto;
+    max-width: 800px; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование контента */
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
   
 }
 .main_name{
     color:lightcoral;
     text-align: center;
-    
+    margin: 0 auto;
+    font-size: 22;
 }
 .nav_menu{
     display: flex; 
@@ -54,34 +54,38 @@ header{
     align-items: center; 
     gap:20px;
     max-width: 1200px; 
-    margin: 0 auto;
+    margin: 0 auto ;
     padding: 20px;
     max-width: 800px;
     background-color: transparent;
 }
 #first_manu{
-  background-color: transparent;
-  color:white;
-  border-bottom: transparent;
-  border-radius:40px;
-  padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border-bottom: transparent;
+    border-radius:40px;
+    padding: 5px 10px 5px 10px;
+    
 }
-        .search-form {
-            display: flex;
-            padding: 20px;
-            background: #f5f5f5;
-            align-items: center;
-            max-width: 900px;
-            width: 100%;
-            justify-content: center;
-        }
-        
-        .form-group {
+ .search-form {
+    display: flex;
+    padding: 20px;
+    background: #f5f5f5;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+}     
+ .form-group {
             flex: 1;
             position: relative;
             margin: 0;
-            padding: 0 10px;
+            padding: 0;
             gap:0;
+            max-width: 100px;
+            flex-grow: 1;
+            justify-content: space-around;
         }
         
         .form-group:first-child {
